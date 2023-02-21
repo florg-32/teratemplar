@@ -1,0 +1,15 @@
+[package]
+name = "teratemplar"
+author = "Florian Guggi <flo@flow-movement.at>"
+about = "A tool to quickly render a tera/jinja2 template from data supplied in structured text."
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.1.6", features = ["derive", "cargo"] }
+tera = "1"
+toml = "*"
+anyhow = "1.0.69"
+
+[build]
+incremental = 1
