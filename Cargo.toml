@@ -13,3 +13,8 @@ anyhow = "1.0.69"
 
 [build]
 incremental = 1
+
+[profile.release]
+lto = true
+panic = "abort"
+strip = true
