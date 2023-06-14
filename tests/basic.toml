@@ -1,0 +1,8 @@
+[some]
+body = 'hello'
+
+[[multi]]
+a = 1
+
+[[multi]]
+a = 2
